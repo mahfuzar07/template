@@ -24,6 +24,7 @@ a {
   background-color: #0066ff;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
+  position: sticky;
 }
 .navbar .container {
   display: flex;
@@ -142,7 +143,7 @@ a {
   justify-content: space-around;
 }
 .service-item {
-  width: 282px;
+  width: 285px;
 }
 .service-item img {
   width: 282px;
@@ -233,4 +234,66 @@ a {
   cursor: pointer;
   text-transform: uppercase;
   font-family: 'Mulish', sans-serif;
+}
+/* faq section */
+.faq {
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+}
+.faq .container {
+  margin-top: 100px;
+}
+.faq-content {
+  display: flex;
+}
+.faq-description {
+  flex: 9;
+  padding: 10px;
+}
+.faq-title h1 {
+  font-size: 38px;
+  color: #1c1d1f;
+  font-weight: 500;
+  text-align: start;
+  margin-bottom: 32px;
+}
+.faq-sub-title p {
+  font-size: 20px;
+  line-height: 40px;
+  margin-bottom: 60px;
+}
+.faq-img {
+  flex: 3;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.faq-img img {
+  width: 600px;
+  height: 515px;
+  margin-top: 50px;
+}
+
+/* boostrap */
+.accordion {
+  width: 100%;
+}
+.accordion-item {
+  width: 100%;
+  border: none;
+
+  font-family: 'Montserrat', sans-serif;
+}
+.accordion-header {
+  line-height: 32px;
+}
+.accordion-button {
+  font-size: 24px;
+  padding-left: 0px;
+}
+
+.accordion-body {
+  padding-left: 0;
+}
+a {
+  text-decoration: inherit;
 }

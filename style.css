@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mulish:wght@200;300;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+a {
+  color: inherit;
+}
+
+.container {
+  max-width: 1440px;
+  padding: 0 55px;
+  margin: auto;
+}
+/* navbar */
+.navbar {
+  width: 100%;
+  padding: 40px 0px;
+  background-color: #0066ff;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+.navbar .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .logo a {
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+  letter-spacing: 3px;
+}
+.navbar .menu li {
+  display: inline-block;
+  list-style: none;
+}
+.navbar .menu li a {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 40px;
+  letter-spacing: 1.8px;
+}
+.menu-button {
+  margin-left: 40px;
+  width: 160px;
+  height: 48px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 40px;
+  border: none;
+  color: #0066ff;
+  cursor: pointer;
+}
+/* home */
+.home {
+  display: flex;
+  background-color: #0066ff;
+  height: 81.5vh;
+  min-height: 500px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+.home .container {
+  margin: auto 0;
+}
+.home-content {
+  display: flex;
+}
+.home-content .text {
+  flex: 6;
+  margin-right: 100px;
+  margin-top: 40px;
+}
+.text .text-1 {
+  font-size: 46px;
+  line-height: 62px;
+  font-weight: bold;
+}
+.text .text-2 {
+  font-size: 24px;
+  line-height: 40px;
+  margin-top: 24px;
+}
+.text .text-button1,
+.text-button2 {
+  margin-top: 46px;
+  width: 160px;
+  height: 55px;
+  font-size: 14px;
+  font-weight: 800;
+  border-radius: 40px;
+  border: none;
+  color: #0066ff;
+  font-family: 'Mulish', sans-serif;
+  text-transform: uppercase;
+  margin-right: 24px;
+}
+.text .text-button2 {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+}
+.home-img {
+  flex: 6;
+}
+/* services */
+.services {
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+}
+.services .container {
+  margin-top: 100px;
+}
+
+.title h1 {
+  font-size: 38px;
+  color: #1c1d1f;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.sub-title p {
+  width: 588px;
+  height: 80px;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 56px;
+}
+.services-content .service-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.service-item {
+  width: 282px;
+}
+.service-item img {
+  width: 282px;
+  height: 282px;
+
+  margin-bottom: 32px;
+}
+.service-item .service-item-description {
+  text-align: center;
+}
+.service-item .service-item-description h1 {
+  color: #1c1d1f;
+  font-size: 20px;
+  font-weight: 500;
+}
+.service-item .service-item-description p {
+  margin-top: 16px;
+  font-size: 14px;
+  line-height: 30px;
+}
+/* Feature work */
+.works {
+  /* height: 100vh; */
+  font-family: 'Montserrat', sans-serif;
+}
+.works .container {
+  margin-top: 125px;
+}
+.works-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.work-item {
+  margin-top: 24px;
+}
+.work-item img {
+  width: 384px;
+  height: 384px;
+}
+/* pricing work */
+.pricing {
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+}
+.pricing .container {
+  margin-top: 100px;
+}
+.pricing-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.pricing-item {
+  width: 384px;
+  height: 422px;
+  background: #0066ff;
+  display: flex;
+  color: white;
+  border-radius: 16px;
+  align-items: center;
+  flex-direction: column;
+}
+.pricing-item img {
+  margin-top: 40px;
+}
+.pricing-item .price {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 16px;
+}
+.pricing-item .price h1 {
+  font-size: 32px;
+}
+.pricing-item .pricing-description {
+  margin: 16px 24px 32px 24px;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 500;
+}
+.pricing-item .pricing-button {
+  padding: 17px 46px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 40px;
+  border: none;
+  color: #0066ff;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: 'Mulish', sans-serif;
+}
